@@ -1,0 +1,13 @@
+"Refract"
+{
+	"$model" 1
+	"$normalmap" "sprites\scope_ref"
+ 	"$refractamount" ".100"
+ 	"$bluramount" "0"
+	"$scale" "[1 1]"
+	"$RefractTintTexture" "sprites\scope"
+	"$translucent" 1
+	"$ignorez"     "1"
+	"$no_fullbright" "1"
+}
+

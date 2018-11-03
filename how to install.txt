@@ -1,0 +1,8 @@
+1. Install Source SDK Base 2013 Singleplayer
+2. Right click on it
+3. Click Properties
+4. Go to Betas
+5. Opt in to "upcoming"
+6. Click OK
+7. Put "hlmbv" into your sourcemods folder
+8. Restart steam
