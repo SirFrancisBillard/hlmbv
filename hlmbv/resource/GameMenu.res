@@ -60,9 +60,16 @@
 	}
 	"11"
 	{
+		"label" "MAIN MENU"
+		"command" "engine disconnect"
+		"InGameOrder" "80"
+		"OnlyInGame" "1"
+	}
+	"11"
+	{
 		"label" "QUIT"
 		"command" "Quit"
-		"InGameOrder" "80"
+		"InGameOrder" "90"
 	}
 }
 

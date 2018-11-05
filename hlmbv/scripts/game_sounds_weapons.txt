@@ -277,7 +277,11 @@
 	"soundlevel"	"SNDLVL_105dB"
 	"pitch"			"95,100"
 
-	"wave"			"weapons/iceaxe/iceaxe_swing1.wav"
+	"rndwave"
+	{
+		"wave"	"hotline_miami/sndSwing1.wav"
+		"wave"	"hotline_miami/sndSwing2.wav"
+	}
 }
 
 "Weapon_Crowbar.Melee_Hit"
@@ -289,9 +293,7 @@
 
 	"rndwave"
 	{
-		"wave"		"physics/flesh/flesh_impact_bullet3.wav"
-		"wave"		"physics/flesh/flesh_impact_bullet4.wav"
-		"wave"		"physics/flesh/flesh_impact_bullet5.wav"
+		"wave"		"hotline_miami/sndPunch.wav"
 	}
 }
 
@@ -304,8 +306,7 @@
 
 	"rndwave"
 	{
-		"wave"		"weapons/crowbar/crowbar_impact1.wav"
-		"wave"		"weapons/crowbar/crowbar_impact2.wav"
+		"wave"		"hotline_miami/sndHitWorld.wav"
 	}
 }
 

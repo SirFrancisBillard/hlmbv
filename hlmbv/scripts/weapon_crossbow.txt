@@ -67,11 +67,8 @@ WeaponData
 		}
 		"zoom"
 		{
-			"file"		"sprites/scope"
-			"x"		"0"
-			"y"		"0"
-			"width"		"2048"
-			"height"	"2048"
+				"font"		"Crosshairs"
+				"character"	"Q"
 		}		
 		"zoom_autoaim"
 		{

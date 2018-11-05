@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/DeLorean/4ec10637"
+	"$nocull" 1
+	"$nodecal" 1
+	"$translucent" 1
+	"$NO_DRAW" 1
+}
