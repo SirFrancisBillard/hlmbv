@@ -87,7 +87,7 @@
 	"soundlevel"  "SNDLVL_NONE"
 	"pitch"	"PITCH_NORM"
 
-	"wave"	"hotline_miami/sndMenuError.wav"
+	"wave"	"hotline_miami/sndMenuDown_fixed.wav"
 }
 
 "Player.WeaponSelected"
@@ -97,7 +97,7 @@
 	"soundlevel"  "SNDLVL_NONE"
 	"pitch"	"PITCH_NORM"
 
-	"wave"	"hotline_miami/sndMenuDown.wav"
+	"wave"	"hotline_miami/sndMenuDown_fixed.wav"
 }
 
 "Player.WeaponSelectionMoveSlot"
@@ -107,7 +107,7 @@
 	"soundlevel"  "SNDLVL_NONE"
 	"pitch"	"PITCH_NORM"
 
-	"wave"	"hotline_miami/sndMenuUp.wav"
+	"wave"	"hotline_miami/sndMenuUp_fixed.wav"
 }
 
 "Player.WeaponSelectionOpen"
@@ -117,7 +117,7 @@
 	"soundlevel"  "SNDLVL_NONE"
 	"pitch"	"PITCH_NORM"
 
-	"wave"	"hotline_miami/sndMenuDown.wav"
+	"wave"	"hotline_miami/sndMenuUp_fixed.wav"
 }
 
 "Player.WeaponSelectionClose"
@@ -127,7 +127,7 @@
 	"soundlevel"  "SNDLVL_NONE"
 	"pitch"	"PITCH_NORM"
 
-	"wave"	"hotline_miami/sndMenuDown.wav"
+	"wave"	"hotline_miami/sndMenuDown_fixed.wav"
 }
 
 "MenuMusic.Intro"
