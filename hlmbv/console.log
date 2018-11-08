@@ -1,0 +1,389 @@
+"save"
+ - Saves current game.
+cvar list
+--------------
+save                                     : cmd      :                  : Saves current game.
+save_async                               : 1        :                  : 
+save_asyncdelay                          : 0        :                  : For testing, adds this many milliseconds of delay to the save operation.
+save_console                             : 0        :                  : Autosave on the PC behaves like it does on the consoles.
+save_disable                             : 0        :                  : 
+save_finish_async                        : cmd      :                  : 
+save_history_count                       : 1        :                  : Keep this many old copies in history of autosaves and quicksaves.
+save_huddelayframes                      : 1        :                  : Number of frames to defer for drawing the Saving message.
+save_in_memory                           : 0        :                  : Set to 1 to save to memory instead of disk (Xbox 360)
+save_noxsave                             : 0        :                  : 
+save_screenshot                          : 1        :                  : 0 = none, 1 = non-autosave, 2 = always
+save_spew                                : 0        :                  : 
+--------------
+ 12 convars/concommands for [save]
+nigga log yuh.txt 
+cvar list
+--------------
+save                                     : cmd      :                  : Saves current game.
+save_async                               : 1        :                  : 
+save_asyncdelay                          : 0        :                  : For testing, adds this many milliseconds of delay to the save operation.
+save_console                             : 0        :                  : Autosave on the PC behaves like it does on the consoles.
+save_disable                             : 0        :                  : 
+save_finish_async                        : cmd      :                  : 
+save_history_count                       : 1        :                  : Keep this many old copies in history of autosaves and quicksaves.
+save_huddelayframes                      : 1        :                  : Number of frames to defer for drawing the Saving message.
+save_in_memory                           : 0        :                  : Set to 1 to save to memory instead of disk (Xbox 360)
+save_noxsave                             : 0        :                  : 
+save_screenshot                          : 1        :                  : 0 = none, 1 = non-autosave, 2 = always
+save_spew                                : 0        :                  : 
+--------------
+ 12 convars/concommands for [save]
+"condump"
+ client
+ - dump the text currently in the console to condumpXX.log
+cvar list
+--------------
+save                                     : cmd      :                  : Saves current game.
+save_async                               : 1        :                  : 
+save_asyncdelay                          : 0        :                  : For testing, adds this many milliseconds of delay to the save operation.
+save_console                             : 0        :                  : Autosave on the PC behaves like it does on the consoles.
+save_disable                             : 0        :                  : 
+save_finish_async                        : cmd      :                  : 
+save_history_count                       : 1        :                  : Keep this many old copies in history of autosaves and quicksaves.
+save_huddelayframes                      : 1        :                  : Number of frames to defer for drawing the Saving message.
+save_in_memory                           : 0        :                  : Set to 1 to save to memory instead of disk (Xbox 360)
+save_noxsave                             : 0        :                  : 
+save_screenshot                          : 1        :                  : 0 = none, 1 = non-autosave, 2 = always
+save_spew                                : 0        :                  : 
+--------------
+ 12 convars/concommands for [save]
+"killstreak" = "1" ( def. "" )
+ - Custom user info value
+"killstreak" = "1" ( def. "" )
+ - Custom user info value
+"fish_debug" = "0"
+ client cheat
+ - Show debug info for fish
+"pixelvis_debug"
+ client
+ - Dump debug info
+"cl_soundscape_printdebuginfo"
+ client
+ - print soundscapes
+"cl_animationinfo"
+ client
+ - Hud element to examine.
+"cl_jiggle_bone_debug" = "0"
+ client cheat
+ - Display physics-based 'jiggle bone' debugging information
+"cl_jiggle_bone_debug_yaw_constraints" = "0"
+ client cheat
+ - Display physics-based 'jiggle bone' debugging information
+"cl_jiggle_bone_debug_pitch_constraints" = "0"
+ client cheat
+ - Display physics-based 'jiggle bone' debugging information
+"cl_dump_particle_stats"
+ client
+ - dump particle profiling info to particle_profile.csv
+"cl_pdump" = "-1"
+ client cheat
+ - Dump info about this entity to screen.
+"showinfo"
+ client
+ - Shows a info panel: <type> <title> <message> [<command number>]
+"hud_quickinfo" = "1"
+ client archive
+"npc_combat"
+ game cheat
+ - Displays text debugging information about the squad and enemy of the selected NPC  (See Overlay Text)
+	Arguments:   	{npc_name} / {npc class_name} / no argument picks what player is looking at
+"npc_tasks"
+ game cheat
+ - Displays detailed text debugging information about the all the tasks of the selected NPC current schedule (See Overlay Text)
+	Arguments:   	{npc_name} / {npc class_name} / no argument picks what player is looking at 
+"npc_task_text"
+ game cheat
+ - Outputs text debugging information to the console about the all the tasks + break conditions of the selected NPC current schedule
+	Arguments:   	{npc_name} / {npc class_name} / no argument picks what player is looking at 
+"ent_text"
+ game cheat
+ - Displays text debugging information about the given entity(ies) on top of the entity (See Overlay Text)
+	Arguments:   	{entity_name} / {class_name} / no argument picks what player is looking at 
+"ent_info"
+ game cheat
+ - Usage:
+   ent_info <class name>
+
+"picker"
+ game cheat
+ - Toggles 'picker' mode.  When picker is on, the bounding box, pivot and debugging text is displayed for whatever entity the player is looking at.
+	Arguments:	full - enables all debug information
+"physics_debug_entity"
+ game
+ - Dumps debug info for an entity
+"physics_select"
+ game
+ - Dumps debug info for an entity
+"scene_async_prefetch_spew" = "0"
+ game
+ - Display async .ani file loading info.
+"scene_print" = "0"
+ game replicated
+ - When playing back a scene, print timing and event info to console.
+"ai_debug_actbusy" = "0"
+ game cheat
+ - Used to debug actbusy behavior. Usage:
+1: Constantly draw lines from NPCs to the actbusy nodes they've chosen to actbusy at.
+2: Whenever an NPC makes a decision to use an actbusy, show which actbusy they've chosen.
+3: Selected NPCs (with npc_select) will report why they're not choosing actbusy nodes.
+4: Display debug output of actbusy logic.
+5: Display safe zone volumes and info.
+
+"physcannon_minforce" = "700"
+ game
+"snd_show" = "0"
+ cheat
+ - Show sounds info
+"soundinfo"
+ - Describe the current sound device.
+"snd_async_stream_spew" = "0"
+ - Spew streaming info ( 0=Off, 1=streams, 2=buffers
+"bench_start"
+ cheat
+ - Starts gathering of info. Arguments: filename to write results into
+"bench_end"
+ cheat
+ - Ends gathering of info.
+"demo_debug" = "0"
+ - Demo debug info.
+"timedemo"
+ - Play a demo and report performance info.
+"timedemoquit"
+ - Play a demo, report performance info, and then exit
+"setinfo"
+ clientcmd_can_execute
+ - Adds a new user info value
+"cl_precacheinfo"
+ - Show precache info (client).
+"cl_showevents" = "0"
+ cheat
+ - Print event firing info in the console
+"print_colorcorrection"
+ cheat
+ - Display the color correction layer information.
+"r_drawlightinfo" = "0"
+ cheat
+"mat_info"
+ - Shows material system info
+"r_printdecalinfo"
+"sv_logfile" = "1"
+ archive
+ - Log server information in the log file.
+"sv_logecho" = "1"
+ archive
+ - Echo log information to the console.
+"sv_log_onefile" = "0"
+ archive
+ - Log server information to only one file.
+"users"
+ - Show user info for players on server.
+"sv_precacheinfo"
+ - Show precache info.
+"sv_tags" = ""
+ notify
+ - Server tags. Used to provide extra information to clients when they're browsing for servers. Separate tags with a comma.
+"cl_clock_showdebuginfo" = "0"
+ cheat
+ - Show debugging info about the clock drift. 
+"tv_debug" = "0"
+ - SourceTV debug info.
+"mem_dumpstats" = "0"
+ - Dump current and max heap usage info to console at end of frame ( set to 2 for continuous output )
+
+"vcr_verbose" = "0"
+ - Write extra information into .vcr file.
+"version"
+ - Print version info string.
+"mm_session_info"
+ - Dump session information
+"net_showudp_wire" = "0"
+ - Show incoming packet information
+"net_showsplits" = "0"
+ - Show info about packet splits
+"net_channels"
+ - Shows net channel info
+"r_staticpropinfo" = "0"
+"loader_spew_info" = "0"
+ - 0:Off, 1:Timing, 2:Completions, 3:Late Completions, 4:Purges, -1:All 
+"loader_spew_info_ex" = "0"
+ - (internal)
+"killstreak" = "1" ( def. "" )
+ - Custom user info value
+"killstreak" = "1" ( def. "" )
+ - Custom user info value
+"user_context"
+ client
+ - Set a Rich Presence Context: user_context <context id> <context value>
+"demo_fov_override" = "0"
+ client
+ - If nonzero, this value will be used to override FOV during demo playback.
+"Test_ProxyToggle_EnsureValue"
+ client cheat
+ - Test_ProxyToggle_EnsureValue
+"vr_aim_yaw_offset" = "90"
+ client
+ - This value is added to Yaw when returning the vehicle aim angles to Source.
+"m_customaccel_scale" = "0.04" min. 0.000000
+ client archive
+ - Custom mouse acceleration value.
+"cl_jiggle_bone_framerate_cutoff" = "45"
+ client
+ - Skip jiggle bone simulation if framerate drops below this value (frames/second)
+"r_farz" = "30000" ( def. "-1" )
+ client cheat
+ - Override the far clipping plane. -1 means to use the value in env_fog_controller.
+"r_depthoverlay" = "0"
+ client cheat
+ - Replaces opaque objects with their grayscaled depth values. r_showz_power scales the output.
+"mat_software_aa_strength" = "0.000000" ( def. "-1.0" )
+ client archive
+ - Software AA - perform a software anti-aliasing post-process (an alternative/supplement to MSAA). This value sets the strength of the effect: (0.0 - off), (1.0 - full)
+"mat_software_aa_edge_threshold" = "1.0"
+ client archive
+ - Software AA - adjusts the sensitivity of the software AA shader's edge detection (default 1.0 - a lower value will soften more edges, a higher value will soften fewer)
+"mat_software_aa_tap_offset" = "1.0"
+ client archive
+ - Software AA - adjusts the displacement of the taps used by the software AA shader (default 1.0 - a lower value will make the image sharper, higher will make it blurrier)
+"mat_software_aa_strength_vgui" = "1.000000" ( def. "-1.0" )
+ client archive
+ - Same as mat_software_aa_strength, but forced to this value when called by the post vgui AA pass.
+"x360_resolution_widescreen_mode" = "0"
+ client
+ - This is only used for reference. Changing this value does nothing
+"x360_resolution_width" = "640"
+ client
+ - This is only used for reference. Changing this value does nothing
+"x360_resolution_height" = "480"
+ client
+ - This is only used for reference. Changing this value does nothing
+"x360_resolution_interlaced" = "0"
+ client
+ - This is only used for reference. Changing this value does nothing
+"ent_fire"
+ game cheat
+ - Usage:
+   ent_fire <target> [action] [value] [delay]
+
+"killvector"
+ game cheat
+ - Kills a player applying force. Usage: killvector <player> <x value> <y value> <z value>
+"explodevector"
+ game cheat
+ - Kills a player applying an explosive force. Usage: explodevector <player> <x value> <y value> <z value>
+"particle_test_attach_mode" = "follow_attachment"
+ game cheat
+ - Possible Values: 'start_at_attachment', 'follow_attachment', 'start_at_origin', 'follow_origin'
+"sv_bonus_challenge" = "0"
+ game replicated
+ - Set to values other than 0 to select a bonus map challenge type.
+"sv_player_display_usercommand_errors" = "0"
+ game cheat
+ - 1 = Display warning when command values are out-of-range. 2 = Spew invalid ranges.
+"Test_ProxyToggle_SetValue"
+ game cheat
+"ent_keyvalue"
+ game cheat
+ - Applies the comma delimited key=value pairs to the entity with the given Hammer ID.
+	Format: ent_keyvalue <entity id> <key1> <value1> <key2> <value2> ... <keyN> <valueN>
+
+"sv_netspike_output" = "1"
+ - Where the netspike data be written?  Sum of the following values: 1=netspike.txt, 2=ordinary server log
+"setinfo"
+ clientcmd_can_execute
+ - Adds a new user info value
+"r_eyeglintlodpixels" = "20.0"
+ cheat
+ - The number of pixels wide an eyeball has to be before rendering an eyeglint.  Is a floating point value.
+"sv_mincmdrate" = "10"
+ replicated
+ - This sets the minimum value for cl_cmdrate. 0 == unlimited.
+"sv_maxcmdrate" = "66"
+ replicated
+ - (If sv_mincmdrate is > 0), this sets the maximum value for cl_cmdrate.
+"sv_client_min_interp_ratio" = "1"
+ replicated
+ - This can be used to limit the value of cl_interp_ratio for connected clients (only while they are connected).
+              -1 = let clients set cl_interp_ratio to anything
+ any other value = set minimum value for cl_interp_ratio
+"sv_client_max_interp_ratio" = "5"
+ replicated
+ - This can be used to limit the value of cl_interp_ratio for connected clients (only while they are connected). If sv_client_min_interp_ratio is -1, then this cvar has no effect.
+"sv_client_predict" = "-1"
+ replicated
+ - This can be used to force the value of cl_predict for connected clients (only while they are connected).
+   -1 = let clients set cl_predict to anything
+    0 = force cl_predict to 0
+    1 = force cl_predict to 1
+"sv_rcon_maxpacketbans" = "1" min. 0.000000 max. 1.000000
+ - Ban IPs for sending RCON packets exceeding the value specified in sv_rcon_maxpacketsize
+"cl_clock_correction_adjustment_max_offset" = "90"
+ cheat
+ - As the clock offset goes from cl_clock_correction_adjustment_min_offset to this value (in milliseconds), it moves towards applying cl_clock_correction_adjustment_max_amount of adjustment. That way, the response is small when the offset is small.
+"differences"
+ - Show all convars which are not at their default values.
+"toggle"
+ - Toggles a convar on or off, or cycles through a set of values.
+"telemetry_filtervalue" = "500"
+ - Set Telemetry ZoneFilterVal (MicroSeconds)
+"incrementvar"
+ - Increment specified convar value.
+"multvar"
+ - Multiply specified convar value.
+"vgui_drawtree_panelptr" = "0"
+ - Show the panel pointer values in the vgui_drawtree view.
+"vgui_drawtree_panelalpha" = "0"
+ - Show the panel alpha values in the vgui_drawtree view.
+"mat_texture_limit" = "-1"
+ - If this value is not -1, the material system will limit the amount of texture memory it uses in a frame. Useful for identifying performance cliffs. The value is in kilobytes.
+Usage: multvar varName minValue maxValue factor
+"pwatchvar" = ""
+ client cheat
+ - Entity variable to watch in prediction system for changes.
+"cl_panelanimation"
+ client
+ - Shows panel animation variables: <panelname | blank for all panels>.
+"ai_next_hull"
+ game cheat
+ - Cycles through the various hull sizes.  Currently selected hull size is written to the screen.  Controls which connections are shown when ai_show_hull or ai_show_connect commands are used
+	Arguments:	-none-
+"commentary_cvarsnotchanging"
+ game
+"sv_consistency" = "1"
+ replicated
+ - Legacy variable with no effect!  This was deleted and then added as a temporary kludge to prevent players from being banned by servers running old versions of SMAC
+"sv_client_max_interp_ratio" = "5"
+ replicated
+ - This can be used to limit the value of cl_interp_ratio for connected clients (only while they are connected). If sv_client_min_interp_ratio is -1, then this cvar has no effect.
+"stats"
+ - Prints server performance variables
+"BindToggle"
+ - Performs a bind <key> "increment var <cvar> 0 1 1"
+"cvarlist"
+ - Show the list of convars/concommands.
+"help"
+ - Find help about a convar/concommand.
+"differences"
+ - Show all convars which are not at their default values.
+"toggle"
+ - Toggles a convar on or off, or cycles through a set of values.
+"dtwatchvar" = ""
+ - Watch the named variable.
+"incrementvar"
+ - Increment specified convar value.
+"multvar"
+ - Multiply specified convar value.
+"ccs_create_convars_from_hwconfig"
+ cheat
+ - Create convars from the current hardware config, useful for diffing purposes
+"dtwatchvar" = "killstreak" ( def. "" )
+ - Watch the named variable.
+"dtwatchvar" = ""
+ - Watch the named variable.
+Dropped shaniqua (proud hiv positive) from server (Server shutting down)
+Host_WriteConfiguration: Wrote cfg/config.cfg
+Shutdown function ShutdownMixerControls() not in list!!!

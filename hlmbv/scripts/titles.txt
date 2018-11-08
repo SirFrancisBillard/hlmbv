@@ -12,6 +12,28 @@
 // $fadeout (message fade out time)
 // $holdtime (stay on the screen for this long)
 
+// HOTLINE MOSCOW SPECIFIC TITLES
+$position -1 0.65
+$effect 2
+$color 0 255 255
+$color2 255 0 255
+$fadein 0.00
+$fxtime 1.0
+$holdtime 4.0
+$fadeout 1.0
+$boxsize 0.4
+$boxcolor 31 31 31 127
+
+QUEST_DATEBARTENDER
+{
+#Quest_DateBartender
+}
+
+QUEST_FINDPAPERTOWELS
+{
+#Quest_FindPaperTowels
+}
+
 //INTRO TITLES
 // All centered for now
 $position -1 -1
