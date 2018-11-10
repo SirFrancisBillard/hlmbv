@@ -8,7 +8,7 @@ WeaponData
 	"playermodel"			"models/weapons/w_irifle.mdl"
 	"anim_prefix"			"ar2"
 	"bucket"			"2"
-	"bucket_position"		"1"
+	"bucket_position"		"2"
 	"bucket_360"			"1"
 	"bucket_position_360"		"2"
 
@@ -19,7 +19,7 @@ WeaponData
 	"default_clip2"			"-1"
 
 	"primary_ammo"			"AR2"
-	"secondary_ammo"		"AR2AltFire"
+	"secondary_ammo"		"None"
 
 	"weight"				"5"
 	"rumble"			"4"

@@ -6,7 +6,7 @@ Feature progress:
 - [x] Bullet time
 - [x] Dialogue system
 - [x] Quest system
-- [ ] L4D-style ammo variants
+- [x] L4D-style ammo variants
 - [ ] Level replay system (demos)
 - [ ] Top-down camera view
 - [ ] Trophy/achievement system

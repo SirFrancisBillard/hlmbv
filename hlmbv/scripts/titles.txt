@@ -34,6 +34,11 @@ QUEST_FINDPAPERTOWELS
 #Quest_FindPaperTowels
 }
 
+QUEST_HARDMODE
+{
+#Quest_EnableHardMode
+}
+
 //INTRO TITLES
 // All centered for now
 $position -1 -1
