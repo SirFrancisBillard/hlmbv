@@ -1,4 +1,23 @@
 //*********************************************************
+// WOMEN ARE OBJECTS
+
+"RoboHooker.UseResponse"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"rndwave"
+	{
+		"wave"	"vo/wh_freesamples.wav"
+		"wave"	"vo/wh_goodsuck.wav"
+		"wave"	"vo/wh_slurpween.wav"
+		"wave"	"vo/wh_takeit.wav"
+		"wave"	"vo/wh_wastemytime.wav"
+	}
+}
+
+//*********************************************************
 // HL2 Item sounds
 
 "ItemBattery.Touch"
