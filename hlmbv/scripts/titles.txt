@@ -39,6 +39,11 @@ QUEST_HARDMODE
 #Quest_EnableHardMode
 }
 
+TEST_CHORES
+{
+Chores
+}
+
 //INTRO TITLES
 // All centered for now
 $position -1 -1

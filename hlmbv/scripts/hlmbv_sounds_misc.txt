@@ -1,0 +1,55 @@
+//*********************************************************
+// WOMEN ARE OBJECTS
+
+"RoboHooker.UseResponse"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"rndwave"
+	{
+		"wave"	"vo/wh_freesamples.wav"
+		"wave"	"vo/wh_goodsuck.wav"
+		"wave"	"vo/wh_slurpween.wav"
+		"wave"	"vo/wh_takeit.wav"
+		"wave"	"vo/wh_wastemytime.wav"
+	}
+}
+
+"Radio.RandomSong"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"rndwave"
+	{
+		"wave"	"music/radio/asphalt_radio.wav"
+		"wave"	"music/radio/back_to_cali_radio.wav"
+		"wave"	"music/radio/badlands_radio.wav"
+		"wave"	"music/radio/blacksmoke_radio.wav"
+		"wave"	"music/radio/daisuke_radio.wav"
+		//"wave"	"music/radio/fuck_you_radio.wav"
+		"wave"	"music/radio/hardbass_radio.wav"
+		"wave"	"music/radio/islam_radio.wav"
+		"wave"	"music/radio/meditation_radio.wav"
+		"wave"	"music/radio/nujabes_radio.wav"
+		"wave"	"music/radio/soviet_radio.wav"
+		"wave"	"music/radio/superman_radio.wav"
+		"wave"	"music/radio/takyon_radio.wav"
+		"wave"	"music/radio/wow_radio.wav"
+	}
+}
+
+"Jukebox.DadRock"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"1"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"rndwave"
+	{
+		"wave"	"music/radio/blacksmoke_radio.wav"
+	}
+}
