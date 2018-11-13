@@ -24,9 +24,9 @@ $fadeout 1.0
 $boxsize 0.4
 $boxcolor 31 31 31 127
 
-QUEST_DATEBARTENDER
+QUEST_FUCKBARTENDER
 {
-#Quest_DateBartender
+#Quest_FuckBartender
 }
 
 QUEST_FINDPAPERTOWELS
