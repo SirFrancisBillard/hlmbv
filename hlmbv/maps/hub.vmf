@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "156"
+	"mapversion" "159"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "156"
+	"mapversion" "159"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -4408,47 +4408,44 @@ entity
 		"logicalpos" "[0 -6768]"
 	}
 }
-hidden
+entity
 {
-	entity
+	"id" "1127"
+	"classname" "prop_dynamic_override"
+	"angles" "0 270 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "0"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/props_c17/chair_stool01a.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"origin" "-303.874 1119.62 13.6003"
+	editor
 	{
-		"id" "1127"
-		"classname" "prop_dynamic_override"
-		"angles" "0 270 0"
-		"DisableBoneFollowers" "0"
-		"disablereceiveshadows" "0"
-		"disableshadows" "0"
-		"ExplodeDamage" "0"
-		"ExplodeRadius" "0"
-		"fademaxdist" "0"
-		"fademindist" "-1"
-		"fadescale" "1"
-		"health" "0"
-		"MaxAnimTime" "10"
-		"maxdxlevel" "0"
-		"MinAnimTime" "5"
-		"mindxlevel" "0"
-		"model" "models/props_c17/chair_stool01a.mdl"
-		"modelscale" "1.0"
-		"PerformanceMode" "0"
-		"pressuredelay" "0"
-		"RandomAnimation" "0"
-		"renderamt" "255"
-		"rendercolor" "255 255 255"
-		"renderfx" "0"
-		"rendermode" "0"
-		"SetBodyGroup" "0"
-		"skin" "0"
-		"solid" "0"
-		"spawnflags" "0"
-		"origin" "-303.874 1119.62 13.6003"
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-			"logicalpos" "[0 -6768]"
-		}
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -6768]"
 	}
 }
 entity
@@ -4596,7 +4593,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
-	"message" "music/radio/islam_radio.wav"
+	"message" "music/radio/islam_radio.mp3"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -6713,7 +6710,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
-	"message" "music/radio/hardbass_radio.wav"
+	"message" "music/radio/hardbass_radio.mp3"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -6744,7 +6741,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
-	"message" "music/radio/nujabes_radio.wav"
+	"message" "music/radio/nujabes_radio.mp3"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -6775,7 +6772,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
-	"message" "music/radio/blacksmoke_radio.wav"
+	"message" "music/radio/blacksmoke_radio.mp3"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -7497,8 +7494,4 @@ cordon
 	"mins" "(-1024 -1024 -1024)"
 	"maxs" "(1024 1024 1024)"
 	"active" "0"
-}
-quickhide
-{
-	"count" "2"
 }
