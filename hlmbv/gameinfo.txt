@@ -1,6 +1,6 @@
 "GameInfo"
 {
-	game 		"Hotline Moscow: Bad Vodka (GOLD)"
+	game 		"Hotline Moscow: Bad Vodka"
 	title 		""
 	title2		""
 

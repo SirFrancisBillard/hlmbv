@@ -2,28 +2,28 @@
 {
 	"1"
 	{
-		"label" "#GameUI_GameMenu_ResumeGame"
+		"label" "resume"
 		"command" "ResumeGame"
 		"InGameOrder" "10"
 		"OnlyInGame" "1"
 	}
 	"5"	
 	{
-		"label" "PLAY"
-		"command" "OpenNewGameDialog"
+		"label" "new game"
+		"command" "engine map hub"
 		"InGameOrder" "40"
 		"notmulti" "1"
 	}
 	"6"
 	{
-		"label" "LOAD"
+		"label" "continue"
 		"command" "OpenLoadGameDialog"
 		"InGameOrder" "30"
 		"notmulti" "1"
 	}
 	"7"
 	{
-		"label" "SAVE"
+		"label" "save"
 		"command" "OpenSaveGameDialog"
 		"InGameOrder" "20"
 		"notmulti" "1"
@@ -31,7 +31,7 @@
 	}
 	"7_5"
 	{
-		"label" "#GameUI_GameMenu_ActivateVR"
+		"label" "enable vr"
 		"command" "engine vr_activate"
 		"InGameOrder" "40"
 		"OnlyWhenVREnabled" "1"
@@ -39,7 +39,7 @@
 	}
 	"7_6"
 	{
-		"label" "#GameUI_GameMenu_DeactivateVR"
+		"label" "disable vr"
 		"command" "engine vr_deactivate"
 		"InGameOrder" "40"
 		"OnlyWhenVREnabled" "1"
@@ -47,27 +47,27 @@
 	}
 	"9"
 	{
-		"label" "#GameUI_Controller"
+		"label" "controller"
 		"command" "OpenControllerDialog"
 		"InGameOrder" "60"
 		"ConsoleOnly" "1"
 	}
 	"10"
 	{
-		"label" "OPTIONS"
+		"label" "settings"
 		"command" "OpenOptionsDialog"
 		"InGameOrder" "70"
 	}
 	"11"
 	{
-		"label" "MAIN MENU"
+		"label" "menu"
 		"command" "engine disconnect"
 		"InGameOrder" "80"
 		"OnlyInGame" "1"
 	}
 	"11"
 	{
-		"label" "QUIT"
+		"label" "quit"
 		"command" "Quit"
 		"InGameOrder" "90"
 	}

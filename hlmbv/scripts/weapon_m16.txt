@@ -11,7 +11,7 @@ WeaponData
 	"bucket_position"		"3"
 	"bucket_360"			"1"
 	"bucket_position_360"		"2"
-	BuiltRightHanded		1
+	BuiltRightHanded		0
 
 	"clip_size"			"30"
 	"default_clip"			"30"

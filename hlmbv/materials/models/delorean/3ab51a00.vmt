@@ -1,8 +1,0 @@
-"VertexlitGeneric"
-{
-	"$basetexture" "models/DeLorean/body1"
-	"$bumpmap" "models/DeLorean/body1_NRM"
-	"$envmap" "env_cubemap"
-	"$envmaptint" "[0.3 .3 .3]"
-	"$normalmapalphaenvmapmask" 1
-}

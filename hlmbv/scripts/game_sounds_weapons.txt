@@ -2,6 +2,15 @@
 
 // *******
 // BULLETS
+"Weapon_Pistol.Mongoloid"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"0.7"
+	"soundlevel"	"SNDLVL_140dB"
+	"pitch"			"PITCH_NORM"
+
+	"wave"	"silenced.wav"
+}
 
 "Bullets.DefaultNearmiss"
 {
@@ -138,7 +147,7 @@
 
 	"rndwave"
 	{
-		"wave"	"hotline_miami/sndM16.wav"
+		"wave"	"weapons/ar2/fire1.wav"
 	}
 }
 
@@ -195,7 +204,7 @@
 	"pitch"			"95,105"
 
 //	"wave"			"^weapons/ar2/npc_ar2_fire1.wav"
-	"wave"			"hotline_miami/sndEM16.wav"
+	"wave"			"^weapons/ar1/ar1_dist1.wav"
 
 }
 
@@ -256,7 +265,9 @@
 	"pitch"	"90,115"
 	"rndwave"
 	{
-		"wave"	"fortnite/who_likes_fortnite.wav"
+		"wave"	"weapons/bugbait/bugbait_squeeze1.wav"
+		"wave"	"weapons/bugbait/bugbait_squeeze2.wav"
+		"wave"	"weapons/bugbait/bugbait_squeeze3.wav"
 	}
 }
 
@@ -277,11 +288,7 @@
 	"soundlevel"	"SNDLVL_105dB"
 	"pitch"			"95,100"
 
-	"rndwave"
-	{
-		"wave"	"hotline_miami/sndSwing1.wav"
-		"wave"	"hotline_miami/sndSwing2.wav"
-	}
+	"wave"			"weapons/iceaxe/iceaxe_swing1.wav"
 }
 
 "Weapon_Crowbar.Melee_Hit"
@@ -293,7 +300,9 @@
 
 	"rndwave"
 	{
-		"wave"		"hotline_miami/sndPunch.wav"
+		"wave"		"physics/flesh/flesh_impact_bullet3.wav"
+		"wave"		"physics/flesh/flesh_impact_bullet4.wav"
+		"wave"		"physics/flesh/flesh_impact_bullet5.wav"
 	}
 }
 
@@ -306,7 +315,8 @@
 
 	"rndwave"
 	{
-		"wave"		"hotline_miami/sndHitWorld.wav"
+		"wave"		"weapons/crowbar/crowbar_impact1.wav"
+		"wave"		"weapons/crowbar/crowbar_impact2.wav"
 	}
 }
 
@@ -717,8 +727,9 @@
 	"soundlevel"	"SNDLVL_GUNFIRE"
 	"pitch"			"98,102"
 
-	"wave"		"hotline_miami/sndMP5.wav"
+	"wave"		"weapons/pistol/pistol_fire2.wav"
 }
+
 
 "Weapon_Pistol.NPC_Single"
 {
@@ -727,7 +738,7 @@
 	"soundlevel"	"SNDLVL_GUNFIRE"
 	"pitch"			"90,120"
 
-	"wave"		"^weapons/pistol/pistol_fire3.wav"
+	"wave"		"mc_bow.wav"
 }
 
 "Weapon_Pistol.Special1"
@@ -826,7 +837,7 @@
 	"volume"		"0.7"
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"		"hotline_miami/sndPump.wav"
+	"wave"		"weapons/shotgun/shotgun_cock.wav"
 }
 
 "Weapon_Shotgun.Single"
@@ -839,7 +850,7 @@
 	{
 	//	"wave"			"weapons/shotgun/shotgun_fire2.wav"
 	//	"wave"			"weapons/shotgun/shotgun_fire6.wav"
-		"wave"			"hotline_miami/sndDoubleBarrel.wav"
+		"wave"			"weapons/shotgun/shotgun_fire7.wav"
 	}
 }
 
@@ -850,7 +861,7 @@
 	"soundlevel"	"SNDLVL_GUNFIRE"
 	"pitch"			"90,95"
 
-	"wave"			"hotline_miami/sndDoubleDoubleBarrel.wav" // A+ naming conventions
+	"wave"			"weapons/shotgun/shotgun_dbl_fire7.wav"
 }
 
 "Weapon_Shotgun.NPC_Reload"
@@ -874,7 +885,7 @@
 	"soundlevel"	"SNDLVL_GUNFIRE"
 	"pitch"			"98,101"
 
-	"wave"			"hotline_miami/sndDoubleBarrel.wav"
+	"wave"			"weapons/shotgun/shotgun_fire6.wav"
 }
 
 // weapon_smg1.txt
@@ -912,7 +923,7 @@
 	"soundlevel"	"SNDLVL_GUNFIRE"
 	"pitch"			"95,105"
 
-	"wave"		"hotline_miami/sndUzi.wav"
+	"wave"		"weapons/smg1/smg1_fire1.wav"
 }
 
 "Weapon_SMG1.Double"
@@ -921,7 +932,7 @@
 	"volume"		"0.61"
 	"soundlevel"	"SNDLVL_GUNFIRE"
 
-	"wave"		"insurgency/grenade_launcher.wav"
+	"wave"		"glauncher.wav"
 }
 
 
@@ -1174,7 +1185,8 @@
 
 	"rndwave"
 	{
-		"wave"			"hotline_miami/sndMagnum.wav"
+		"wave"			"weapons/357/357_fire2.wav"
+		"wave"			"weapons/357/357_fire3.wav"
 	}
 }
 
@@ -1405,7 +1417,8 @@
 	"pitch"	"95,105"
 	"rndwave"
 	{
-		"wave"	"fortnite/boogie_impact.wav"
+		"wave"	"weapons/bugbait/bugbait_impact1.wav"
+		"wave"	"weapons/bugbait/bugbait_impact3.wav"
 	}
 }
 

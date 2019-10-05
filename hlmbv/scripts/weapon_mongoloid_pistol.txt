@@ -27,8 +27,8 @@ WeaponData
 		"reload"		"Weapon_Pistol.Reload"
 		"reload_npc"	"Weapon_Pistol.NPC_Reload"
 		"empty"			"Weapon_Pistol.Empty"
-		"single_shot"	"gas_that_mongoloid/gun" // put this in a soundscript maybe prolly not idk fuck it
-		"single_shot_npc"	"gas_that_mongoloid/gun"
+		"single_shot"	"Weapon_Pistol.Mongoloid" // put this in a soundscript maybe prolly not idk fuck it
+		"single_shot_npc"	"Weapon_Pistol.Mongoloid"
 		"special1"		"Weapon_Pistol.Special1"
 		"special2"		"Weapon_Pistol.Special2"
 		"burst"			"Weapon_Pistol.Burst"

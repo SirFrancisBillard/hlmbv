@@ -12,36 +12,39 @@
 // $fadeout (message fade out time)
 // $holdtime (stay on the screen for this long)
 
-// HOTLINE MOSCOW SPECIFIC TITLES
+// Hotline Moscow: Bad Vodka
 $position -1 0.65
-$effect 2
+$effect 0
 $color 0 255 255
 $color2 255 0 255
-$fadein 0.00
+$fadein 3.0
+$fxtime 2.0
+$holdtime 12
+$fadeout 3.0
+$boxsize 0.4
+$boxcolor 0 0 0 0
+
+CS50_TITLE
+{
+This was CS50.
+}
+
+// LES SOUS-TITRES
+// J'AIME BEAUCOUP LES POMMES DE TERRE
+$position -1 0.8
+$effect 0
+$color 255 255 255
+$color2 255 255 255
+$fadein 0.0
 $fxtime 1.0
 $holdtime 4.0
-$fadeout 1.0
+$fadeout 0.0
 $boxsize 0.4
-$boxcolor 31 31 31 127
+$boxcolor 0 0 0 0
 
-QUEST_FUCKBARTENDER
+ST_DRINK_ASS
 {
-#Quest_FuckBartender
-}
-
-QUEST_FINDPAPERTOWELS
-{
-#Quest_FindPaperTowels
-}
-
-QUEST_HARDMODE
-{
-#Quest_EnableHardMode
-}
-
-TEST_CHORES
-{
-Chores
+Is taste like ass, why people eat it?
 }
 
 //INTRO TITLES
