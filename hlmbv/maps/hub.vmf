@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6440"
-	"mapversion" "283"
+	"mapversion" "297"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "283"
+	"mapversion" "297"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -4682,6 +4682,11 @@ entity
 	"skin" "0"
 	"spawnflags" "256"
 	"targetname" "vending_soda"
+	connections
+	{
+		"OnPlayerUse" "!self,Kill,,0,-1"
+		"OnPlayerPickup" "client_command,Command,exec drink_soda,0,-1"
+	}
 	"origin" "224 1278 22"
 	editor
 	{
@@ -5780,7 +5785,7 @@ entity
 	"orientationtype" "1"
 	"radius" "0"
 	"spawnflags" "0"
-	"speed" "300"
+	"speed" "150"
 	"target" "introtrain_track3"
 	"targetname" "introtrain_track2"
 	"origin" "1664 -1792 288"
@@ -5800,7 +5805,7 @@ entity
 	"orientationtype" "1"
 	"radius" "0"
 	"spawnflags" "0"
-	"speed" "150"
+	"speed" "300"
 	"target" "introtrain_track4"
 	"targetname" "introtrain_track3"
 	"origin" "1664 256 288"
@@ -5820,7 +5825,7 @@ entity
 	"orientationtype" "1"
 	"radius" "0"
 	"spawnflags" "0"
-	"speed" "0"
+	"speed" "60"
 	"target" "introtrain_track5"
 	"targetname" "introtrain_track4"
 	connections
@@ -5846,7 +5851,7 @@ entity
 	"orientationtype" "1"
 	"radius" "0"
 	"spawnflags" "0"
-	"speed" "0"
+	"speed" "300"
 	"target" "introtrain_track6"
 	"targetname" "introtrain_track5"
 	"origin" "-1792 256 288"
@@ -7233,7 +7238,7 @@ entity
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
-	"solidbsp" "0"
+	"solidbsp" "1"
 	"spawnflags" "80"
 	"spawnpos" "0"
 	"speed" "100"
@@ -7347,7 +7352,7 @@ entity
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
-	"solidbsp" "0"
+	"solidbsp" "1"
 	"spawnflags" "82"
 	"spawnpos" "0"
 	"speed" "100"
@@ -8251,7 +8256,7 @@ entity
 	"lfomodvol" "0"
 	"lforate" "0"
 	"lfotype" "0"
-	"message" "degenerate/pl_deathshout_distant_23.wav"
+	"message" "vo/npc/male01/pain09.wav"
 	"pitch" "100"
 	"pitchstart" "100"
 	"preset" "0"
@@ -9231,7 +9236,7 @@ entity
 	"renderfx" "0"
 	"rendermode" "0"
 	"sleepstate" "0"
-	"spawnflags" "0"
+	"spawnflags" "16384"
 	"targetname" "ho"
 	"wakeradius" "0"
 	"wakesquad" "0"

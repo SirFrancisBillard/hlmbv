@@ -7,6 +7,8 @@ Feature progress:
 - [x] Dialogue system
 - [x] Quest system
 - [x] L4D-style ammo variants
+- [x] Russian roullette
+- [x] Parkour
 - [ ] Level replay system (demos)
 - [ ] Top-down camera view
 - [ ] Trophy/achievement system
