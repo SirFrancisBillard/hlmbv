@@ -63,9 +63,9 @@ Scheme
 		"Main.Title2.Color"	"255 0 255 200"
 
 		// Top-left corner of the menu on the main screen
-		"Main.Menu.X"			"53"
-		"Main.Menu.X_hidef"		"76"
-		"Main.Menu.Y"			"240"
+		"Main.Menu.X"			"100"
+		"Main.Menu.X_hidef"		"300"
+		"Main.Menu.Y"			"280"
 
 		// Blank space to leave beneath the menu on the main screen
 		"Main.BottomBorder"	"32"

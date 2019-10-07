@@ -2,72 +2,56 @@
 {
 	"1"
 	{
-		"label" "resume"
+		"label" "> resume <"
 		"command" "ResumeGame"
 		"InGameOrder" "10"
 		"OnlyInGame" "1"
 	}
 	"5"	
 	{
-		"label" "new game"
+		"label" "> new game <"
 		"command" "engine map hub"
 		"InGameOrder" "40"
 		"notmulti" "1"
 	}
 	"6"
 	{
-		"label" "continue"
+		"label" "> continue <"
 		"command" "OpenLoadGameDialog"
 		"InGameOrder" "30"
 		"notmulti" "1"
 	}
 	"7"
 	{
-		"label" "save"
+		"label" "> save <"
 		"command" "OpenSaveGameDialog"
 		"InGameOrder" "20"
 		"notmulti" "1"
 		"OnlyInGame" "1"
 	}
-	"7_5"
-	{
-		"label" "enable vr"
-		"command" "engine vr_activate"
-		"InGameOrder" "40"
-		"OnlyWhenVREnabled" "1"
-		"OnlyWhenVRInactive" "1"
-	}
-	"7_6"
-	{
-		"label" "disable vr"
-		"command" "engine vr_deactivate"
-		"InGameOrder" "40"
-		"OnlyWhenVREnabled" "1"
-		"OnlyWhenVRActive" "1"
-	}
 	"9"
 	{
-		"label" "controller"
+		"label" "> controller <"
 		"command" "OpenControllerDialog"
 		"InGameOrder" "60"
 		"ConsoleOnly" "1"
 	}
 	"10"
 	{
-		"label" "settings"
+		"label" "> settings <"
 		"command" "OpenOptionsDialog"
 		"InGameOrder" "70"
 	}
 	"11"
 	{
-		"label" "menu"
+		"label" "> menu <"
 		"command" "engine disconnect"
 		"InGameOrder" "80"
 		"OnlyInGame" "1"
 	}
 	"11"
 	{
-		"label" "quit"
+		"label" "> quit <"
 		"command" "Quit"
 		"InGameOrder" "90"
 	}
