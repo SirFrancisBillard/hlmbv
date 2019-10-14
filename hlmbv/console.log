@@ -1,0 +1,178 @@
+'pls_tp' not present; not executing.
+"con_logfile" = "console.log" ( def. "" )
+ - Console output gets written to this file
+Writing cfg/banned_ip.cfg.
+'pls_tp' not present; not executing.
+Unknown command: writei[
+Writing cfg/banned_ip.cfg.
+"sb_showblacklists" = "0"
+ - If set to 1, blacklist rules will be printed to the console as they're applied.
+"cc_captiontrace" = "1"
+ client
+ - Show missing closecaptions (0 = no, 1 = devconsole, 2 = show in hud)
+"cam_showangles" = "0"
+ client cheat
+ - When in thirdperson, print viewangles/idealangles/cameraoffsets to the console.
+"spec_pos"
+ client
+ - dump position and angles to the console
+"getpos"
+ client
+ - dump position and angles to the console
+"condump"
+ client
+ - dump the text currently in the console to condumpXX.log
+"npc_task_text"
+ game cheat
+ - Outputs text debugging information to the console about the all the tasks + break conditions of the selected NPC current schedule
+	Arguments:   	{npc_name} / {npc class_name} / no argument picks what player is looking at 
+"ainet_generate_report"
+ game
+ - Generate a report to the console.
+"ainet_generate_report_only"
+ game
+ - Generate a report to the console.
+"ent_show_response_criteria"
+ game cheat
+ - Print, to the console, an entity's current criteria set used to select responses.
+	Arguments:   	{entity_name} / {class_name} / no argument picks what player is looking at 
+"dumpeventqueue"
+ game
+ - Dump the contents of the Entity I/O event queue to the console.
+"dbghist_dump"
+ game
+ - Dump the debug history to the console. Format: <category id>
+    Categories:
+     0: Entity I/O
+     1: AI Decisions
+     2: Scene Print
+     3: Alyx Blind
+     4: Log of damage done to player
+"dumpgamestringtable"
+ game cheat
+ - Dump the contents of the game string table to the console.
+"player_debug_print_damage" = "0"
+ game cheat
+ - When true, print amount and type of all damage received by player to console.
+"scene_print" = "0"
+ game replicated
+ - When playing back a scene, print timing and event info to console.
+"snd_dumpclientsounds"
+ - Dump sounds to VXConsole
+"snd_async_spew_blocking" = "0"
+ - Spew message to console any time async sound loading blocks on file i/o.
+"cl_show_connectionless_packet_warnings" = "0"
+ - Show console messages about ignored connectionless packets on the client.
+"demo_recordcommands" = "1"
+ cheat
+ - Record commands typed at console into .dem files.
+"cl_entityreport" = "0"
+ cheat
+ - For debugging, draw entity states to console
+"cl_entityreport_sorted" = "0"
+ cheat
+ - For debugging, draw entity states to console in sorted order. [0 = disabled, 1 = average, 2 = current, 3 = peak
+"cl_showents"
+ cheat
+ - Dump entity list to console.
+"cl_showevents" = "0"
+ cheat
+ - Print event firing info in the console
+"con_timestamp" = "0"
+ - Prefix console.log entries with timestamps
+"con_logfile" = "console.log" ( def. "" )
+ - Console output gets written to this file
+"con_trace" = "0"
+ - Print console text to low level printout.
+"con_notifytime" = "8"
+ - How long to display recent console text to the upper part of the game window
+"contimes" = "8"
+ - Number of console lines to overlay for debugging.
+"con_enable" = "1" ( def. "0" )
+ archive
+ - Allows the console to be activated.
+"con_filter_enable" = "0"
+ - Filters console output based on the setting of con_filter_text. 1 filters completely, 2 displays filtered text brighter than other text.
+"con_filter_text" = ""
+ - Text with which to filter console spew. Set con_filter_enable 1 or 2 to activate.
+"con_filter_text_out" = ""
+ - Text with which to filter OUT of console spew. Set con_filter_enable 1 or 2 to activate.
+"toggleconsole"
+ - Show/hide the console.
+"hideconsole"
+ - Hide the console.
+"showconsole"
+ - Show the console.
+"clear"
+ - Clear all console output.
+"sv_logecho" = "1"
+ archive
+ - Echo log information to the console.
+"log"
+ - Enables logging to file, console, and udp < on | off >.
+"rcon_password" = ""
+ - remote console password.
+"echo"
+ server_can_execute
+ - Echo text to console.
+"net_showevents" = "0"
+ cheat
+ - Dump game events to console (1=client only, 2=all).
+"mem_dumpstats" = "0"
+ - Dump current and max heap usage info to console at end of frame ( set to 2 for continuous output )
+
+"dumpstringtables"
+ - Print string tables to console.
+"save_console" = "0"
+ - Autosave on the PC behaves like it does on the consoles.
+"net_showudp" = "0"
+ - Dump UDP packets summary to console
+"net_showtcp" = "0"
+ - Dump TCP stream summary to console
+"net_showdrop" = "0"
+ - Show dropped packets in console
+"sys_minidumpspewlines" = "500"
+ - Lines of crash dump console spew to keep.
+"spew_consolelog_to_debugstring" = "0"
+ - Send console log to PLAT_DebugString()
+"vprof_dump_spikes" = "0"
+ - Framerate at which vprof will begin to dump spikes to the console. 0 = disabled, negative to reset after dump
+"vprof_dump_oninterval" = "0"
+ - Interval (in seconds) at which vprof will batch up data and dump it to the console.
+"vprof_report_oninterval" = "0"
+ - Interval (in seconds) at which vprof will batch up a full report to the console -- more detailed than vprof_dump_oninterval.
+"vprof_dump_groupnames"
+ - Write the names of all of the vprof groups to the console.
+"vprof_generate_report"
+ - Generate a report to the console.
+"vprof_generate_report_budget"
+ - Generate a report to the console based on budget group.
+"vprof_generate_report_hierarchy"
+ - Generate a report to the console.
+"vprof_generate_report_AI"
+ - Generate a report to the console.
+"vprof_generate_report_AI_only"
+ - Generate a report to the console.
+"vprof_generate_report_map_load"
+ - Generate a report to the console.
+"mat_spewvertexandpixelshaders"
+ - Print all vertex and pixel shaders currently loaded to the console
+bind <key> [command] : attach a command to a key
+bind <key> [command] : attach a command to a key
+weapon_grenade_machine_gun[13]: Playing sequence 5 but there's only 3 in total?
+weapon_grenade_machine_gun[13]: Playing sequence 5 but there's only 3 in total?
+weapon_grenade_machine_gun[13]: Playing sequence 5 but there's only 3 in total?
+weapon_grenade_machine_gun[13]: Playing sequence 5 but there's only 3 in total?
+weapon_grenade_machine_gun[13]: Playing sequence 5 but there's only 3 in total?
+weapon_grenade_machine_gun[13]: Playing sequence 5 but there's only 3 in total?
+weapon_grenade_machine_gun[13]: Playing sequence 5 but there's only 3 in total?
+weapon_grenade_machine_gun[13]: Playing sequence 5 but there's only 3 in total?
+weapon_grenade_machine_gun[13]: Playing sequence 5 but there's only 3 in total?
+weapon_grenade_machine_gun[13]: Playing sequence 5 but there's only 3 in total?
+weapon_grenade_machine_gun[13]: Playing sequence 7 but there's only 3 in total?
+weapon_grenade_machine_gun[13]: Playing sequence 5 but there's only 3 in total?
+weapon_grenade_machine_gun[13]: Playing sequence 5 but there's only 3 in total?
+weapon_grenade_machine_gun[13]: Playing sequence 5 but there's only 3 in total?
+Dropped jeram958 from server (Server shutting down)
+Host_WriteConfiguration: Wrote cfg/config.cfg
+Shutdown function ShutdownMixerControls() not in list!!!

@@ -1,0 +1,7 @@
+Found 6 mesh(es)
+grabbing mesh 0 with 128 vertices!
+grabbing mesh 1 with 4 vertices!
+grabbing mesh 2 with 4 vertices!
+grabbing mesh 3 with 23 vertices!
+grabbing mesh 4 with 802 vertices!
+grabbing mesh 5 with 106 vertices!

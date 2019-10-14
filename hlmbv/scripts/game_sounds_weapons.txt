@@ -147,7 +147,7 @@
 
 	"rndwave"
 	{
-		"wave"	"weapons/ar2/fire1.wav"
+		"wave"	"weapons/new_ar2.wav"
 	}
 }
 
@@ -727,7 +727,7 @@
 	"soundlevel"	"SNDLVL_GUNFIRE"
 	"pitch"			"98,102"
 
-	"wave"		"weapons/pistol/pistol_fire2.wav"
+	"wave"		"weapons/new_pistol.wav"
 }
 
 
@@ -738,7 +738,7 @@
 	"soundlevel"	"SNDLVL_GUNFIRE"
 	"pitch"			"90,120"
 
-	"wave"		"mc_bow.wav"
+	"wave"		"weapons/new_pistol.wav"
 }
 
 "Weapon_Pistol.Special1"
@@ -846,12 +846,8 @@
 	"volume"		"0.86"
 	"soundlevel"	"SNDLVL_GUNFIRE"
 	"pitch"			"98,101"
-	"rndwave"
-	{
-	//	"wave"			"weapons/shotgun/shotgun_fire2.wav"
-	//	"wave"			"weapons/shotgun/shotgun_fire6.wav"
-		"wave"			"weapons/shotgun/shotgun_fire7.wav"
-	}
+
+	"wave"			"weapons/new_shotgun.wav"
 }
 
 "Weapon_Shotgun.Double"
@@ -861,7 +857,7 @@
 	"soundlevel"	"SNDLVL_GUNFIRE"
 	"pitch"			"90,95"
 
-	"wave"			"weapons/shotgun/shotgun_dbl_fire7.wav"
+	"wave"			"weapons/new_shotgun_double.wav"
 }
 
 "Weapon_Shotgun.NPC_Reload"
@@ -923,7 +919,7 @@
 	"soundlevel"	"SNDLVL_GUNFIRE"
 	"pitch"			"95,105"
 
-	"wave"		"weapons/smg1/smg1_fire1.wav"
+	"wave"		"weapons/new_smg1.wav"
 }
 
 "Weapon_SMG1.Double"
@@ -1243,7 +1239,7 @@
 	"soundlevel"		"SNDLVL_NORM"
 	"pitch"			"93,108"
 
-	"wave"			"weapons/crossbow/fire1.wav"
+	"wave"			"weapons/new_crossbow.wav"
 }
 
 "Weapon_Crossbow.Reload"

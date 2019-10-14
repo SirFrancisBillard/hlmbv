@@ -1,0 +1,5 @@
+Magic number: 90
+x,y,z for first selected vertex: 18.6743 35.9305 1.15596 !
+total number of verts: 106
+number of unique verts found: 90
+number of selected vertices: 90
